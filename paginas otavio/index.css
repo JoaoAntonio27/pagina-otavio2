@@ -1,0 +1,211 @@
+body {
+    background-color: #d9d9d9;
+  }
+  header {
+    background-color: #4c4d4b;
+    color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 24px;
+  }
+  
+  .user-info {
+    background-color: #4c4d4b;
+    padding: 50px;
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .user-info .photo {
+    margin-right: 40px;
+  }
+  
+  .user-info .details {
+    flex-grow: 1;
+    color: #fff;
+  }
+  
+  .user-info .additional-info {
+    flex-grow: 1;
+    color: #fff;
+    font-size: 20px
+  }
+  
+  .user-info .details p {
+    margin: 15px 0;
+    font-size: 20px;
+  }
+  
+  .achievements {
+    background-color: #4c4d4b;
+    padding: 50px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .courses {
+    background-color: #4c4d4b;
+    padding: 60px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .achievements h2,
+  .courses h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: #fff;
+  }
+  
+  .achievements .badge,
+  .courses .badge {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: #4c4d4b;
+  }
+  
+  .user-info .photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .rankings-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #4c4d4b;
+}
+
+.ranking {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ranking1 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.ranking2 {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.ranking-image {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.ranking-name {
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.tierlist-table {
+    width: 1395px;
+    height: 635px;
+    margin: auto;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: #80817e;
+}
+
+.tierlist-table th,
+.tierlist-table td {
+    border-bottom: 3px solid #4c4d4b;
+    padding: 10px;
+    text-align: center;
+}
+
+.tierlist-table td:first-child {
+    border-left: none;
+}
+
+.tierlist-table td:last-child {
+    border-right: none;
+}
+.fototabela {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.table-content {
+    display: flex;
+    align-items: center;
+}
+
+.table-content img {
+    margin-right: 10px;
+}
+
+.table-content h2 {
+    margin: 0;
+}
+
+.paicontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container3 {
+  width: 1680px;
+  height: 780px;
+  
+}
+
+.half {
+  width: 1680px;
+  height: 390px;
+  flex: 1;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+
+.course1 {
+  width: 282px;
+  height: 248px;
+  margin-top: 50px;
+  margin-left: 40px ;
+}
+
